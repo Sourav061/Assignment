@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENgmates</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px 20px 0px 20px;
+            /* margin-top: 20px; */
+        }
+        .form-container h5 {
+            color: #b00000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-control {
+            margin-bottom: 9px;
+        }
+        .btn-submit {
+            width: 100%;
+    color: #b00000;
+        }
+        .feature-list {
+            /* list-style-type: none; */
+            padding: 0;
+            margin-top: 9px;
+        }
+        .feature-list li {
+            margin-bottom: 3px;
+        }
+        .contact-info {
+            background-color: #b00000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .contact-info h4, .contact-info h3 {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            /* margin-top: 20px; */
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .about-engmates {
+    background-color: #b3003b;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+        @media (max-width: 768px) {
+            .img-container img{
+                width: 43%;
+            }
+            .text-container {
+                text-align: center;
+            }
+            .img-container {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .form-container {
+                margin-top: 0;
+            }
+        }
+        @media (max-width: 576px) {
+            .form-container h5, .feature-list, .contact-info h4, .contact-info h3 {
+                font-size: 1rem;
+            }
+        }
+        @media (min-width: 769px) {
+            .logo{
+                position: absolute;
+            }
+            /* Custom styles for desktop screens */
+            footer{
+                position: fixed;
+    bottom: 11%;
+    left: 23%;
+            }
+            .contact-info h4{
+                font-size: 13px;
+            }
+            .about-engmates{
+                width: 60%;
+            }
+            .about-engmates p{
+                font-size: 11px;
+            }
+            .tital-bottom{
+                width: 60%;
+            }
+            .contact-info{
+                position: fixed;
+        left: 0;
+        bottom: 6%;
+            }
+            .img-container {
+                position: fixed;
+                /* top: 20px;
+                left: 20px; */
+                max-width: 462px; /* Example width */
+            }
+            .text-container {
+                margin-left: 53%; /* Adjust based on img-container width */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://engmates.com/images/logo.png" alt="">
+        <div class="row align-items-center">
+            <div class="col-md-6 img-container">
+                <img src="contact_img-removebg-preview.png" class="img-fluid" alt="ENgmates">
+            </div>
+            <div class="col-md-6 text-container">
+                <h4 class="mt-4" style="color: #b00000;font-weight: 700;">ENGLISH SPEAKING COURSE IN TILAK NAGAR</h4>
+                <div class="form-container">
+                    <h5 style="font-weight: 700;">GET FREE CONSULTATION</h5>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Enter Your Name" required>
+                        <input type="tel" class="form-control" placeholder="Enter Phone Number" required>
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        <hr style="margin: 0;">
+                        <button type="submit" class="btn btn-submit" style="font-weight: 700;">SUBMIT</button>
+                    </form>
+                </div>
+                <ul class="feature-list">
+                    <li>Interactive Learning Methods</li>
+                    <li>Experienced Trainers</li>
+                    <li>Personalized Feedback</li>
+                    <li>Advanced Learning Modules</li>
+                </ul>
+                <hr style="border: 1px dotted black; margin: 3px;">
+                <h4 style="text-align: center;color: #b00000; font-weight: 700;">JOIN THE BEST ENGLISH <br> SPEAKING INSTITUTE IN <br> TILAK NAGAR</h4>
+                <hr style="border: 1px dotted black; margin: 3px;">
+                <p style="text-align: center;font-weight: 700;color: #b00000;">Holistic Development</p>
+                <p style="text-align: center;font-weight: 700;">BETTER ENGLISH | BETTER YOU</p>
+                <div class="contact-info">
+                    <h4>TALK TO OUR EXPERTS</h4>
+                    <h3>8010-263-263</h3>
+                </div>
+            </div>
+        </div>
+        <footer >
+            <p style="color: #b3003b;" class="tital-bottom">ABOUT ENGMATES™ ></p>
+            <div class="about-engmates">
+                <p style="margin-bottom: 0;">ENGmates<sup>TM</sup> provides high-quality English courses at extremely affordable and reasonable fees compared to other institutions. Unlike others, we offer comprehensive content that exceeds expectations without straining your budget. Choose ENGmates<sup>TM</sup> for great returns on a low investment.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
